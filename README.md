@@ -5,9 +5,7 @@
 
 A simple macOS application to quickly look up key combinations for special characters.
 
-## Purpose
-
-This tool was built to provide a quick and easy way to see the characters that can be typed with different keyboard modifier combinations (Option, Shift, etc.). It displays a visual representation of your current keyboard layout and updates the characters in real-time as you press and hold modifier keys.
+https://github.com/user-attachments/assets/ef35828c-8b3f-4c8a-b341-738d01fc058e
 
 ## Running the Application
 
