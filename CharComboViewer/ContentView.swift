@@ -19,8 +19,8 @@ class KeyboardState: ObservableObject {
     // These arrays define the virtual key codes for each row of a standard US keyboard.
     
     @Published var row1: [UInt16] = [50, 18, 19, 20, 21, 23, 22, 26, 28, 25, 29, 27, 24, 51] // ~, 1-9, 0, -, =, delete
-    @Published var row2: [UInt16] = [48, 12, 13, 14, 15, 17, 16, 32, 34, 31, 35, 33, 30, 42]    // tab, Q-P, [, ], \
-    @Published var row3: [UInt16] = [57, 0, 1, 2, 3, 5, 4, 38, 40, 37, 41, 39]          // caps, A-L, ;, '
+    @Published var row2: [UInt16] = [48, 12, 13, 14, 15, 17, 16, 32, 34, 31, 35, 33, 30]    // tab, Q-P, [, ]
+    @Published var row3: [UInt16] = [57, 0, 1, 2, 3, 5, 4, 38, 40, 37, 41, 39, 42]          // caps, A-L, ;, ', \
     @Published var row4: [UInt16] = [56, 10, 6, 7, 8, 9, 11, 45, 46, 43, 47, 44, 60]       // L-shift, ISO-§, Z-M, ,, ., /, R-shift
     @Published var row5: [UInt16] = [63, 59, 58, 55, 49, 54, 61]                         // fn, ctrl, L-opt, L-cmd, space, R-cmd, R-opt
     
@@ -223,7 +223,6 @@ struct KeyRowView: View {
                 
                 // Row 2
                 case 48: LabelKeyView(label: "⇥", width: 60) // tab
-                case 42: KeyView(character: keyData[keyCode] ?? "", width: 75) // \ key
                 
                 // Row 3
                 case 57: LabelKeyView(label: "⇪", width: 95) // caps lock
