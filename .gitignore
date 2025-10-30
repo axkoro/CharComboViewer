@@ -1,0 +1,37 @@
+# Xcode
+#
+# Created by https://www.toptal.com/developers/gitignore/api/xcode,swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=xcode,swift
+
+### Xcode ###
+# Xcode 4 and earlier
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# Xcode 5 and later
+*.xcworkspace
+xcuserdata
+
+# Other
+*.moved-aside
+DerivedData
+.idea/
+
+### Swift ###
+.build/
+Packages/
+*.swiftdoc
+*.swiftmodule
+
+# Used by Swift Package Manager
+.package.resolved
+
+# Used by AppCode
+.idea
+
+# Local History for Visual Studio Code
+.history/
