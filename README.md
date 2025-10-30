@@ -8,19 +8,18 @@ A simple macOS application to quickly look up key combinations for special chara
 https://github.com/user-attachments/assets/ef35828c-8b3f-4c8a-b341-738d01fc058e
 
 ## Running the Application
-
 If you are not a developer or don't have Xcode, you can download the latest pre-built version of the application from the [releases page](https://github.com/axkoro/CharComboViewer/releases).
 
 ### How to Run the Downloaded App
-
-Because this app is not officially registered with Apple, your Mac will show a security warning the first time you try to open it.
+Because this app is not signed with an Apple Developer ID (which would cost me $99/year), macOS will block it from opening by default to protect your system.
 
 **To run the app, you only need to do this once:**
-
-1.  Find the `CharComboViewer.app` file (e.g., in your Downloads folder).
-2.  **Right-click** (or Control-click) the app icon.
-3.  Select **"Open"** from the menu that appears.
-4.  A new dialog will pop up. This time, it will have an "Open" button. Click it.
+1. Try to open `CharComboViewer.app` (e.g., from your Downloads folder) by double-clicking it.
+2. macOS will show a warning that the app cannot be opened.
+3. Open **System Settings** > **Privacy & Security**.
+4. Scroll down to the **Security** section.
+5. You'll see a message about CharComboViewer being blocked. Click **"Open Anyway"**.
+6. Confirm by clicking **"Open"** in the dialog that appears.
 
 After you do this once, you can launch the app normally from then on.
 
